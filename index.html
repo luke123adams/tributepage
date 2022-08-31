@@ -1,0 +1,183 @@
+** start of undefined **
+
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="main">
+      <h1 id="title">Ozzy Osbourne</h1>
+      <p>The Prince of Darkness</p>
+
+      <figure id="img-div">
+        <img
+          id="image"
+          src="https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTY5ODEzMTM4MzkxMTgxMTE1/ozzy-osbourne-gettyimages-660795784.jpg"
+          alt="Ozzy Osbourne portrait"
+          width=400px
+          max-width=100
+          height=auto
+          />
+          <figcaption id="img-caption">
+Ozzy Osbourne is one of Birminghams most famous celebrities and a pioneer of heavy metal music 
+        </figcaption>
+</figure>
+ <section id="tribute-info">
+        <h3 id="headline">Here's an outline of important moments in Ozzy's life:</h3>
+        <ul>
+          <li><strong>1948</strong> - Born in Marston Green Maternity Hospital in Birmingham.</li>
+          <li>
+            <strong>1963</strong> - Leaves school at the age of 15 and has a string of odd jobs including construction worker, car horn tuner and abbattoir worker. Decides he wants to become a musician after hearing The Beatles.
+          </li>
+          <li>
+            <strong>1967</strong> - Geezer Butler forms his first band, Rare Breed, and recruits Ozzy as vocalist. The band break up after 2 shows. 
+          </li>
+          <li>
+            <strong>1968</strong> - Ozzy places an advert in a local music shop: "Ozzy Zigg needs gig- has own PA." He and Geezer Butler are enlisted by guitarist Tony Iommi and drummer Bill Ward to start a new band called Earth.
+          </li>
+          <li>
+            <strong>1969</strong> - After the band get repeatedly mistaken for another group of the same name, they decide to change their name to Black Sabbath after a 1963 horror film playing at the cinema across the road from their recording studio.
+          </li>
+          <li>
+            <strong>1970</strong> - Black Sabbath release their eponymous debut album on Friday 13th February, recorded over 2 days at Trident studios. It is critically panned but a commercial success.
+          </li>
+          <li>
+            <strong>1971-1977</strong> - The band release a number of albums throughout the 1970s and Ozzy suffers from a prolonged period of despair and drug abuse. 
+          </li>
+         
+            <strong>1979</strong> -  Ozzy is kicked out of the band because of his drug abuse. While living in Los Angeles Ozzy is signed to Jet Records as a solo artist by Don Arden, who sends his daughter Sharon to "look after Ozzy's needs and protect his investment".
+          </li>
+          <li>
+            <strong>1980</strong> - Ozzy releases his first solo album, Blizzard of Ozz. The album attracts controversy and Ozzy is sued by the parents of a depressed teenager who committed suicide, blaming one his songs for influencing their son's actions.
+          </li>
+          <li>
+            <strong>1982</strong> - Ozzy marries Sharon Levy. Ozzy's guitarist and close friend, Randy Rhoads, is killed in an airplane crash while on tour. Ozzy falls into a deep depression.
+          </li>
+          <li><strong>1996</strong> - After a string of solo albums, Ozzy's wife creates the first Ozzfest music festival.</li>
+          <li>
+            <strong>2002</strong> - Ozzy's new reality tv show, 'The Osbournes' premieres on MTV
+          </li>
+          <li>
+            <strong>2003</strong> - Ozzy is rushed to hospital after seriously injuring himself on a quad bike. While he is recovering, he achieves his first ever UK number 1 single for the song Changes, a duet with his daughter, Kelly.
+          </li>
+          <li>
+            <strong>2011</strong> - Ozzy, Iommi, Butler and Ward announce the reunion of the original Black Sabbath lineup. 
+          </li>
+          <li><strong>2012</strong> - Black Sabbath play their first live concert since 2005 at the 02 Academy in Bimingham</li>
+          <li><strong>2022</strong> - Ozzy and Tony Iommi make a surprise appearance at the closing ceremony of the Commonwealth games in Birmingham. </li>
+        </ul>
+                  <a
+            id="tribute-link"
+            href="https://en.wikipedia.org/wiki/Ozzy_Osbourne"
+            target="_blank"
+            >Ozzy's wikipedia page</a
+          >.
+</main>
+
+** end of undefined **
+
+** start of undefined **
+
+html {
+  /* Setting a base font size of 10px give us easier rem calculations
+       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+     */
+  font-size: 10px;
+}
+
+body {
+  /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background:crimson;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+** end of undefined **
+
